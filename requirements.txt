@@ -1,0 +1,18 @@
+# Core
+torch>=2.1
+torchvision>=0.16
+numpy
+tqdm
+pyyaml
+
+# Optional feature extractors (pip install if you want CLIP / DINOv2 encoders).
+# Without these the code falls back to a torchvision ResNet50 encoder.
+# open_clip_torch
+# timm
+
+# Optional, faster KNN. Without it a pure-torch batched cosine KNN is used.
+# faiss-cpu
+
+# Optional, for FID evaluation.
+# scipy
+# clean-fid
