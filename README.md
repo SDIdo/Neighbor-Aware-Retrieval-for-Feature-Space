@@ -68,7 +68,8 @@ python scripts/smoke_test.py     # runs all 4 conditioning modes on random data
 python scripts/smoke_test.py                      # seconds, verifies wiring
 python scripts/precompute_embeddings.py           # caches CIFAR-10 embeddings
 python scripts/train.py --cond-mode gnn --out-dir runs/gnn
-python scripts/sample.py --ckpt runs/gnn/last.pt```
+python scripts/sample.py --ckpt runs/gnn/last.pt
+```
 
 ## Run on CIFAR-10
 
